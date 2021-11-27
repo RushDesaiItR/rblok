@@ -1,0 +1,139 @@
+<body>
+    <head>
+        <style>
+            body {
+              font-family: 'Brush Script MT', cursive;
+  margin: 0;
+  padding: 0;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+   background-image: linear-gradient(45deg, rgba(10, 25, 47,.5) 50%, rgba(10, 25, 47,.5) 50%); 
+  background-size: 3px 3px;
+  z-index: 2;
+}
+.text-container {
+  color:#CCD6F6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 600px;
+  width: 100%;
+  height: 40%;
+  /* background-color: red; */
+  text-align: center;
+}
+
+  .text-container h1{
+    /* color: #CCD6F6; */
+    /* margin-top: 15%; */
+    color: #00bcd4;
+    line-height: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-top: 17%;
+  }      
+  
+  .text-container h3{
+   
+    text-transform: uppercase;
+    color: #8892B0;
+    font-size: 30px;
+    line-height: 2;
+  }  
+  .img-class{
+    width: 100px;
+    height: 100px;
+    
+  }    
+  ul {
+  list-style-type: none;
+   color: #8892B0;;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(rgb(12, 11, 11), rgb(0, 0, 0), rgb(0, 0, 0), .1);
+  font-size: 20px;
+}
+
+li {
+  float: right;
+ 
+}
+
+
+
+li a {
+  display: block;
+  color: #8892B0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+p{
+ line-height: 0;
+}
+#particles-js{
+  height: 100vh;
+ 
+}
+  </style>
+    </head>
+    <div class="bg-video-wrap">
+  
+      <video src="../World - 2 (1).mp4" loop muted autoplay>
+      </video>
+      <div class="overlay" id="particles-js">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li style="float:left;color: #00bcd4;">
+               
+                <img class="img-class" src="./b1bc64439ec4408792f211eb43fa0480 (1).png"/> 
+             
+            
+          </li>
+        </ul>
+      </div>
+       <div class="text-container">
+        <h1>
+          COMMING SOON
+     </h1>
+        <h3 style="display: flex;flex-direction: row;align-items: center;justify-content: center;">
+          <img class="img-class" src="b1bc64439ec4408792f211eb43fa0480 (1).png"/>  
+        <span style="margin-left: 10px;">RBLOK</span> 
+        </h3>
+       
+        <p>the way of innovations</p>
+       
+      </div>
+    </div>
+   <script src="./particles.js"></script>
+   <script src="./app.js"></script>
+  </body>
