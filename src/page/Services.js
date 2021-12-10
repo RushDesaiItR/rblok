@@ -7,13 +7,13 @@ export default class Services extends Component {
                 <h3 style={{ color: "white", textAlign: "center", fontWeight:"bold" }}>Services We Provide</h3>
                 <div className="services-row">
                     <div className="services-card">
-                        <div className="services-card-logo-container">
-                            <div className="services-card-logo-incontainer">
+                        <div className="services-card-logo-container" >
+                            <div className="services-card-logo-incontainer" style={{background:"#DE3C2A"}}>
                                 <i class="fa fa-pencil services-card-logo" aria-hidden="true"></i>
 
                             </div>
                         </div>
-                        <h3>
+                        <h3 style={{color:"#DE3C2A"}}>
 
                         Frontend UI
 Development
@@ -26,12 +26,12 @@ Development
                     </div>
                     <div className="services-card ">
                         <div className="services-card-logo-container">
-                            <div className="services-card-logo-incontainer">
+                            <div className="services-card-logo-incontainer" style={{background:"#35B36C"}}>
                             <i class="fa fa-diamond services-card-logo" aria-hidden="true"></i>
                             </div>
                         </div>
 
-                        <h3>
+                        <h3 style={{color:"#35B36C"}}>
 
                         Smart Contract Development
                         </h3>
@@ -42,13 +42,13 @@ Development
                     </div>
                     <div className="services-card ">
                         <div className="services-card-logo-container">
-                            <div className="services-card-logo-incontainer">
+                            <div className="services-card-logo-incontainer" style={{background:"#0D50AB"}}>
                                 <i class="fa fa-mobile services-card-logo" aria-hidden="true"></i>
 
                             </div>
                         </div>
 
-                        <h3>
+                        <h3 style={{color:"#0D50AB"}}>
 
                             Mobile App
                             Development

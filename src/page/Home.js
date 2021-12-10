@@ -14,10 +14,10 @@ function Home() {
       <video  src={videoBg}   autoPlay={true} type="video/mp4"></video>
    
     <header class="viewport-header">
-      <h1>
+      <h1 style={{color:"white"}}>
         COMMING SOON
         <span>RBLOK</span>
-        <span style={{fontSize:'20px',color:'#6565FE',letterSpacing:'.3vw'}}>way of innovations</span>
+        <span style={{fontSize:'20px',color:'#DE3C2A',letterSpacing:'.3vw'}}>way of innovations</span>
       </h1>
     </header>
     </div>

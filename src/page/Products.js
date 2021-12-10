@@ -3,6 +3,9 @@ import "./Product.css"
 export default class Products extends Component {
   render() {
     return (
+      <div className="mainbg">
+
+     
       <div className="products">
         <h2>
         How Do
@@ -36,7 +39,7 @@ Products?
             <div><div></div><div></div><div></div><div></div><div></div><div></div></div>
           </div></div> */}
         </div>
-      
+        </div>
     );
   }
 }
