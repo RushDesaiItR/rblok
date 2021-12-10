@@ -1,18 +1,26 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import styled from 'styled-components';
+import Burger from './Burger';
 
-function Menu() {
+const Nav = styled.nav`
+  width: 100%;
+  height: 55px;
+  border-bottom: 2px solid #f1f1f1;
+  
+  background-color:black;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+`
+
+const Navbar = () => {
   return (
-    <div class="topnav" id="myTopnav">
-             <Link to="/">RBLOK</Link>
-             <Link to="/services">News</Link>
-             <Link to="/products">Contact</Link>
-          
-             <Link href="javascript:void(0);" class="icon" onclick="myFunction()">
-               <i class="fa fa-bars"></i>
-          </Link>
-    </div>
-  );
+    <Nav>
+     
+      <Burger /> 
+    </Nav>
+  )
 }
 
-export default Menu;
+export default Navbar

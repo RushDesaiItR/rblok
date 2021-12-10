@@ -36,8 +36,8 @@ function App() {
     <div className="row">
 
     <Router>  
-    
-    <div  className={(myTopnav ? 'responsive' : 'topnav')}>
+    <Menu/>
+    {/* <div  className={(myTopnav ? 'responsive' : 'topnav')}>
    
              <Link className="a" to="/">RBLOK</Link>
              <Link className="a" to="/services">Services</Link>
@@ -46,7 +46,7 @@ function App() {
                <i class="fa fa-bars"></i>
            </button>
            
-    </div>
+    </div> */}
 
      <div className="col-3">
      <Routes>
