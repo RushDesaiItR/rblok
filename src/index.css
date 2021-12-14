@@ -67,7 +67,9 @@ h1  span {
     font-size: 10vw;
     letter-spacing: -.8vw;
   }
-
+.h1-span::first-letter{
+  color: #DE3C2A;
+}
 .overlay {
   width: 100%;
   position: absolute;
@@ -163,11 +165,11 @@ h1  span {
 
 .services-card{
   width: 25%;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px;
   background: #20204C;
-
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 
 }
 .services-card-logo-incontainer{

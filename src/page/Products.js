@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import "./Product.css"
-export default class Products extends Component {
-  render() {
+import { useNavigate } from 'react-router-dom';
+// let navigate = useNavigate();
+//   React.useEffect(()=>{
+//     navigate('/products');
+//   },[])
+export default function Products (){
+  let navigate = useNavigate();
+  //   React.useEffect(()=>{
+  //    setTimeout(()=>{
+  //     navigate('/home');
+  //    },4000)
+  //  },[])
     return (
       <div className="mainbg">
 
@@ -42,4 +52,4 @@ Products?
         </div>
     );
   }
-}
+

@@ -32,10 +32,10 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li><Link  to="/">RBLOK</Link></li>
-      <li> <Link  to="/services">Services</Link></li>
+      <li><Link style={{color:"rgb(255, 165, 60)", textDecoration:"none"}} to="/">RBLOK</Link></li>
+      <li> <Link style={{color:"rgb(255, 165, 60)", textDecoration:"none"}} to="/services">Services</Link></li>
      
-      <li> <Link  to="/products">Products</Link></li>
+      <li> <Link style={{color:"rgb(255, 165, 60)", textDecoration:"none"}} to="/products">Products</Link></li>
      
               {/* <Link className="a" to="/">RBLOK</Link>
              <Link className="a" to="/services">Services</Link>

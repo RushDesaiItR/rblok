@@ -42,13 +42,13 @@ Development
                     </div>
                     <div className="services-card ">
                         <div className="services-card-logo-container">
-                            <div className="services-card-logo-incontainer" style={{background:"#0D50AB"}}>
+                            <div className="services-card-logo-incontainer" style={{background:"#FFA53C"}}>
                                 <i class="fa fa-mobile services-card-logo" aria-hidden="true"></i>
 
                             </div>
                         </div>
 
-                        <h3 style={{color:"#0D50AB"}}>
+                        <h3 style={{color:"#FFA53C"}}>
 
                             Mobile App
                             Development
